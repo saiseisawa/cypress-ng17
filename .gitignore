@@ -41,5 +41,8 @@ testem.log
 .DS_Store
 Thumbs.db
 
+cypress/screenshots/
 cypress-image-diff-html-report/*
 cypress-image-diff-screenshots/*
+cypress/cypress-image-diff-html-report/*
+cypress/cypress-image-diff-screenshots/*
