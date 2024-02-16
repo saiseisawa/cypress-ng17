@@ -126,9 +126,12 @@
           "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "cypress-ng17:serve",
-            "watch": true,
-            "headless": false,
-            "configFile": "cypress/cypress.config.ts"
+            "configFile": "cypress/cypress.config.ts",
+            "browser": "chrome",
+            "watch": false,
+            "headless": true,
+            "quiet": false,
+            "exit": true
           },
           "configurations": {
             "production": {
