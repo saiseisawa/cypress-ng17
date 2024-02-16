@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
+## Add Cypress
+
+```bash
+# https://github.com/cypress-io/cypress/tree/develop/npm/cypress-schematic
+ng add @cypress/schematic
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

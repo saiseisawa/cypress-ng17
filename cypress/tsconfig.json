@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    // "baseUrl": "../",
+    // "paths": {
+    //   "cypress-image-diff-js": ["../node_modules/cypress-image-diff-js"]
+    // },
+    "sourceMap": false,
+    // "module": "NodeNext",
+    // "moduleResolution": "NodeNext",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
+  },
+  "exclude": []
+}
